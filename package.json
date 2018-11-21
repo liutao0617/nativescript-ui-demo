@@ -1,7 +1,10 @@
 {
   "name": "my-app",
   "nativescript": {
-    "id": "org.nativescript.myapp"
+    "id": "org.nativescript.myapp",
+    "tns-ios": {
+      "version": "5.0.0"
+    }
   },
   "version": "0.0.0",
   "scripts": {
@@ -28,6 +31,7 @@
     "core-js": "^2.5.4",
     "nativescript-angular": "~6.1.0",
     "nativescript-theme-core": "~1.0.4",
+    "nativescript-ui-sidedrawer": "^5.0.0",
     "reflect-metadata": "~0.1.8",
     "rxjs": "^6.0.0",
     "tns-core-modules": "~4.2.0",
